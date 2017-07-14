@@ -1,0 +1,26 @@
+{
+  "name": "mp_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack -w & nodemon --watch server -e js,html server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gracemgately/MP_test_site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gracemgately/MP_test_site/issues"
+  },
+  "homepage": "https://github.com/gracemgately/MP_test_site#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "path": "^0.12.7",
+    "pg": "^6.4.1",
+    "sequelize": "^4.3.2"
+  }
+}
